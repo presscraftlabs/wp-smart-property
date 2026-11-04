@@ -111,7 +111,7 @@ export default function Tools() {
 									'wp-smart-property'
 								),
 								rebuilding
-						  )
+							)
 						: __( 'Rebuild search index', 'wp-smart-property' ) }
 				</Button>
 			</section>
@@ -130,11 +130,11 @@ export default function Tools() {
 									'wp-smart-property'
 								),
 								status.geocoding.pending
-						  )
+							)
 						: __(
 								'No addresses are waiting to be looked up.',
 								'wp-smart-property'
-						  ) }
+							) }
 				</p>
 				<p className="description">
 					{ __(

@@ -75,11 +75,11 @@ export default function CustomFields( { fields, savedKeys, onChange } ) {
 										? __(
 												'Saved values use this key, so it cannot change.',
 												'wp-smart-property'
-										  )
+											)
 										: __(
 												'Letters, numbers and underscores.',
 												'wp-smart-property'
-										  )
+											)
 								}
 								readOnly={ saved }
 								value={ field.key }

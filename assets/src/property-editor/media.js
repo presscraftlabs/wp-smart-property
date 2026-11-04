@@ -8,10 +8,10 @@ import { NumberInput, Text } from '../common/controls';
 /**
  * Open the media library.
  *
- * @param {Object}   options          Options.
- * @param {string}   options.title    Frame title.
- * @param {boolean}  options.multiple Allow several images.
- * @param {Function} options.onSelect Called with the chosen attachments.
+ * @param {Object}                          options          Options.
+ * @param {string}                          options.title    Frame title.
+ * @param {boolean}                         options.multiple Allow several images.
+ * @param {(attachments: Object[]) => void} options.onSelect Called with the chosen attachments.
  */
 function pick( { title, multiple, onSelect } ) {
 	const frame = window.wp.media( {

@@ -88,11 +88,11 @@ function HeadingControls( { name, attributes, setAttributes } ) {
 /**
  * Pick terms of a taxonomy by slug.
  *
- * @param {Object}   props          Props.
- * @param {string}   props.taxonomy Taxonomy.
- * @param {string}   props.label    Label.
- * @param {string[]} props.value    Slugs.
- * @param {Function} props.onChange Change handler.
+ * @param {Object}                    props          Props.
+ * @param {string}                    props.taxonomy Taxonomy.
+ * @param {string}                    props.label    Label.
+ * @param {string[]}                  props.value    Slugs.
+ * @param {(value: string[]) => void} props.onChange Change handler.
  */
 function TermPicker( { taxonomy, label, value, onChange } ) {
 	const terms = useSelect(
@@ -354,10 +354,10 @@ const CONTROLS = {
 										( k ) =>
 											k === key ||
 											attributes.fields.includes( k )
-								  )
+									)
 								: attributes.fields.filter(
 										( k ) => k !== key
-								  ),
+									),
 						} )
 					}
 				/>
@@ -528,7 +528,7 @@ const CONTROLS = {
 										? [ ...attributes.fields, key ]
 										: attributes.fields.filter(
 												( k ) => k !== key
-										  ),
+											),
 								} )
 							}
 						/>

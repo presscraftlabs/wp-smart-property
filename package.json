@@ -2,7 +2,7 @@
   "name": "wp-smart-property",
   "version": "3.0.1",
   "private": true,
-  "description": "EstateCraft \u2013 real estate listings and portal (admin apps, blocks and front-end scripts).",
+  "description": "EstateCraft – real estate listings and portal (admin apps, blocks and front-end scripts).",
   "license": "GPL-2.0-or-later",
   "scripts": {
     "build": "wp-scripts build settings=./assets/src/settings/index.js property-editor=./assets/src/property-editor/index.js blocks=./assets/src/blocks/index.js frontend=./assets/src/frontend/index.js property-map=./assets/src/property-map/index.js search=./assets/src/search/index.js --output-path=build",
@@ -16,7 +16,9 @@
     "leaflet.markercluster": "^1.5.3"
   },
   "devDependencies": {
-    "@wordpress/scripts": "27.9.0",
-    "typescript": "~5.5.4"
+    "@wordpress/scripts": "37.1.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
   }
 }

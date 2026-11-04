@@ -121,7 +121,7 @@ function initGallery( root ) {
 	let items;
 	try {
 		items = JSON.parse( root.dataset.estatecraftGallery || '[]' );
-	} catch ( e ) {
+	} catch {
 		return;
 	}
 	if ( ! items.length || typeof window.HTMLDialogElement === 'undefined' ) {
@@ -156,7 +156,7 @@ function initActions() {
 				if ( navigator.share ) {
 					try {
 						await navigator.share( { url, title } );
-					} catch ( e ) {
+					} catch {
 						// The visitor closed the share sheet.
 					}
 					return;
@@ -167,7 +167,7 @@ function initActions() {
 						'Link copied',
 						'wp-smart-property'
 					);
-				} catch ( e ) {
+				} catch {
 					status.textContent = url;
 				}
 			} );
