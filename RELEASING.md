@@ -13,7 +13,7 @@ Repository secrets (Settings → Secrets and variables → Actions):
 2. Add a `== Changelog ==` entry (and an `== Upgrade Notice ==` for security or major changes) in
    `readme.txt`.
 3. Open a PR to `master` and wait for CI to pass: PHPCS, ESLint, Stylelint, the build, the
-   shipped-PHP lint on 7.4–8.4 and PHPUnit on WordPress 6.5 and latest.
+   shipped-PHP lint on 7.4–8.4 and PHPUnit on WordPress 6.6 and latest.
 4. **Tag the PR's head commit first, then merge.** Tags have no `v` prefix:
    ```
    git tag 2.0.1 <head-commit> && git push origin 2.0.1

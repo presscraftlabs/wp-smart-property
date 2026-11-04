@@ -88,7 +88,7 @@ jobs:
         include:
           # Oldest supported pair and newest pair.
           - php: '7.4'
-            wp: '6.5'
+            wp: '6.6'
           - php: '8.3'
             wp: 'latest'
     services:

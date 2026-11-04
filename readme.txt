@@ -2,7 +2,7 @@
 
 Contributors: rajanit2000
 Tags: real estate, property listings, property search, real estate agents, map
-Requires at least: 6.5
+Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
 Stable tag: 3.0.1

@@ -12,7 +12,7 @@
  * Plugin URI:        https://wordpress.org/plugins/wp-smart-property/
  * Description:       Property listings with search, OpenStreetMap maps, agents and agencies, for block and classic themes. Formerly WP Smart Property.
  * Version:           3.0.1
- * Requires at least: 6.5
+ * Requires at least: 6.6
  * Requires PHP:      7.4
  * Author:            Rajan V
  * Author URI:        https://www.wpsmartplugin.com/
