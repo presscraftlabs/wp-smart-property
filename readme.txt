@@ -2,10 +2,10 @@
 
 Contributors: rajanit2000
 Tags: real estate, property listings, property search, real estate agents, map
-Requires at least: 6.5
+Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 3.0.1
+Stable tag: 3.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -108,6 +108,11 @@ Copy a file from the plugin's `templates` folder to `yourtheme/estatecraft/` and
 
 == Changelog ==
 
+= 3.0.2 =
+
+* Changed: requires WordPress 6.6 or later.
+* Changed: updated the build tools, which makes the plugin's styles slightly smaller.
+
 = 3.0.1 =
 
 * Changed: `[post_grid]` grids from 2.0 are now shown with EstateCraft's property cards, using each grid's saved post types, terms, order and number per page. The bundled copy of the Post Grid plugin is removed, which makes the plugin smaller and removes its old admin screens. Grid skins, layouts and custom CSS are not carried over; for new pages, use the Property Listings block.
@@ -146,6 +151,9 @@ WP Smart Property is now EstateCraft, rebuilt from the ground up. Your propertie
 * New: property search widget.
 
 == Upgrade Notice ==
+
+= 3.0.2 =
+EstateCraft now requires WordPress 6.6 or later. Update WordPress before updating the plugin.
 
 = 3.0.1 =
 2.0 property grids now use EstateCraft's property cards, and the old bundled grid plugin is removed.

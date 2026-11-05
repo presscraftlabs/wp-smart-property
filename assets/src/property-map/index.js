@@ -8,7 +8,7 @@ function draw( L, element ) {
 	let config;
 	try {
 		config = JSON.parse( element.dataset.estatecraftMap );
-	} catch ( e ) {
+	} catch {
 		return;
 	}
 	const point = [ config.lat, config.lng ];

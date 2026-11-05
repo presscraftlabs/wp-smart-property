@@ -10,7 +10,6 @@
 				]
 			}
 		],
-		"max-line-length": 120,
 		"selector-class-pattern": null
 	}
 }

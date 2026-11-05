@@ -343,7 +343,7 @@ class Results {
 			? L.markerClusterGroup( {
 					showCoverageOnHover: false,
 					maxClusterRadius: 50,
-			  } )
+				} )
 			: L.layerGroup();
 		this.layer.addTo( this.map );
 		let timer;
@@ -386,7 +386,7 @@ class Results {
 				{ signal: this.markerRequest.signal }
 			);
 			data = await response.json();
-		} catch ( error ) {
+		} catch {
 			return;
 		}
 		const L = this.L;
@@ -427,7 +427,7 @@ class Results {
 					),
 					data.markers.length,
 					data.total
-			  )
+				)
 			: '';
 		// Fit the results, except while the visitor is choosing the area themselves.
 		if ( points.length && ! this.bounds.checked ) {

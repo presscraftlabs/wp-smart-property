@@ -572,7 +572,7 @@ function App( { input } ) {
 	const [ values, setValues ] = useState( () => {
 		try {
 			return JSON.parse( input.value ) || {};
-		} catch ( e ) {
+		} catch {
 			return {};
 		}
 	} );

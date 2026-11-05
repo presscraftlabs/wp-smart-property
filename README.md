@@ -92,7 +92,7 @@ The upgrade runs by itself when the plugin is updated. It works in small batches
 
 | | |
 |---|---|
-| WordPress | 6.5 or later, tested up to 7.1 |
+| WordPress | 6.6 or later, tested up to 7.1 |
 | PHP | 7.4 or later, including 8.4 |
 
 ## External services
