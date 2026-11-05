@@ -20,5 +20,5 @@ CLAUDE.md
 phpcs.xml.dist
 package.json
 package-lock.json
-.eslintrc.js
+eslint.config.cjs
 .stylelintrc.json
